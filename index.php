@@ -167,6 +167,7 @@
     </main>
 
     <script>
+        // Function to fill a progress bar
         function fillProgressBar(skillId, percentage, skill) {
             var elem = document.getElementById(skillId);
             var width = 0;
