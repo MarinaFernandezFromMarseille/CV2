@@ -17,18 +17,22 @@ fieldset {
     color: #180214;
     border-color: white;
     font-size: 1.5vw;
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.192);
 }
 
 legend {
     font-size: 2vw;
+    text-decoration: underline;
+}
+
+
+.job {
+    background-color: rgba(255, 255, 255, 0.87);
 }
 
 .icon {
     width: 2vw;
-}
-
-.icon:hover {
-    width: 3vw;
 }
 
 
@@ -46,7 +50,22 @@ legend {
     width: 25vw;
     padding: 2vw;
     border-radius: 1vw;
+    animation: left-fade-in 1s forwards ease-in;
 }
+
+@keyframes left-fade-in {
+    from {
+        opacity: 0;
+        transform:translateX(-500px);
+    }
+
+    to {
+        opacity: 1;
+        transform:translateX(0px);
+    }
+}
+
+
 
 .right {
     display: flex;

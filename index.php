@@ -8,6 +8,8 @@
     <title>CV Fernandez Marina</title>
 </head>
 <body>
+<div id="animated-text"></div>
+<script src="script.js"></script>
     <main>
         <section class = "container">
 
@@ -15,9 +17,9 @@
         <img src="./ASSETS/Pictures/unnamed.jpg" alt="Profile Picture">
         <article>
             <h1>Mes infos</h1>
-            <p><img class="icon" src = "./ASSETS/Pictures/icons8-smartphone-24.png" alt = "smartphone Picture"> 07.52.05.65.62</p>
-            <p><img class="icon" src = "./ASSETS/Pictures/icons8-courrier-24.png" alt = "mail Picture"> marinafernandezproc@gmail.com</p>
-            <p><img class="icon" src = "./ASSETS/Pictures/icons8-position-24.png" alt = "adress Picture"> 33 allée Léon Gambetta</p>
+            <p class = "phone"><img class="icon" src = "./ASSETS/Pictures/icons8-smartphone-24.png" alt = "smartphone Picture"> 07.52.05.65.62</p>
+            <p class = "phone"><img class="icon" src = "./ASSETS/Pictures/icons8-courrier-24.png" alt = "mail Picture"> marinafernandezproc@gmail.com</p>
+            <p class = "phone"><img class="icon" src = "./ASSETS/Pictures/icons8-position-24.png" alt = "adress Picture"> 33 allée Léon Gambetta</p>
             <p>13001 Marseille</p>
         </article>
 
@@ -42,11 +44,19 @@
         <br>
 
         <article>
-            <h1>Mes projets</h1>
-            <a href= "#">Projet1</a>
-            <a href = "#">Projet2</a>
-            <a href = "#">Projet3</a>
-        </article>
+            <h1>Mes liens</h1>
+            <a class = "lien" href= "https://marina-fernandez.students-laplateforme.io/">Mon Plesk</a>
+            <a class = "lien" href = "https://github.com/MarinaFernandezFromMarseille">Mon Github</a>
+        <br>
+
+        <article>
+            <h1>Mes hobbies</h1>
+            <ul>
+                <li>Design</li>
+                <li>Dessin</li>
+                <li>Musique</li>
+                <li>morbide stuff</li>
+            </ul>
         </section>
 
         <section class = "right">
@@ -56,10 +66,71 @@
             </article>
         <fieldset>
             <legend><img class = "icon" src = "./ASSETS/Pictures/icons8-point-d'interrogation-24.png" alt = "home Picture">A propos de moi </legend>
-            <p>Je suis actuellement étudiante chez la Plateforme, en Dev Web Mobile. J'ai pour projet de continuer mon cursus le plus loin possible afin d'acquérir le plus de compétences possibles 
+            <p>n'ayant eu des expériences que dans la restauration et la vente auparavant, je suis actuellement étudiante chez la Plateforme, en Dev Web Mobile. J'ai pour projet de continuer mon cursus le plus loin possible afin d'acquérir le plus de compétences possibles 
                 dans le but d'obtenir un niveau ingénieur et ainsi pouvoir par la suite travailler soit en entreprise, soit à mon compte. </p>
             </fieldset>
+
+            <br>
+
+            <fieldset>
+            <legend><img class = "icon" src = "./ASSETS/Pictures/icons8-valise-24.png" alt = "valise Picture">Ce que je recherche</legend>
+            <p> Je recherche une alternance pour préparer le titre pro de CDA, pour faire suite à mon parcours dans le dev web mobile. </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <legend><img class = "icon" src = "./ASSETS/Pictures/icons8-liste-24.png" alt = "list Picture">Mon parcours professionnel</legend>
+            <fieldset class = "job">
+            <p>Octobre 2022 – Marseille – Manpower interim
+            gent de restauration collective • conditionnement • SODEXO
+        </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset class = "job">
+            <p>Novembre 2021 – Mars 2022 – Marseille
+Serveuse petit déjeuner • Best Western Hôtel
+</p>
+        </fieldset>
+
+        <br>
+
+        <fieldset class = "job">
+            <p>Novembre 2021 – Mars 2022 – Marseille
+Serveuse petit déjeuner • Best Western Hôtel
+</p>
+        </fieldset>
+
+        <br>
+
+        <fieldset class = "job">
+            <p>Février 2019 – Mars 2019 – Marseille – Actual intérim
+            Employée de snack – Service et cuisine – Snack de la source</p>
+        </fieldset>
+
+        <br>
+
+        <fieldset class = "job">
+            <p>Août 2018 – Octobre 2018 – Marseille – Manpower intérim
+Missions ponctuelles de serveuse, plonge, et restauration 
+collective chez sodexo</p>
+        </fieldset>
+
+        <br>
+
+        <fieldset class = "job">
+            <p>Mars 2018 – Juillet 2018 – Marignane (Airbus ) – Actual intérim
+Employée de restauration collective – ELIOR 
+Vendeuse en boulangerie – PAUL Airbus</p>
+        </fieldset>
+
+ 
+            </fieldset>
+           
         </section>
+
 </section>
 
     </main>
