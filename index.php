@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./ASSETS/CSS/cv.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./ASSETS/CSS/bootstrap.css">
-    <title>CV Fernandez Marina</title>
 </head>
 <body>
-<div id="animated-text"></div>
-<script src="script.js"></script>
+
     <main>
         <section class = "container">
 
         <section class = "left">
-        <img src="./ASSETS/Pictures/unnamed.jpg" alt="Profile Picture">
+        <img class = "profilepic" src="./ASSETS/Pictures/unnamed.jpg" alt="Profile Picture">
         <article>
             <h1>Mes infos</h1>
             <p class = "phone"><img class="icon" src = "./ASSETS/Pictures/icons8-smartphone-24.png" alt = "smartphone Picture"> 07.52.05.65.62</p>
@@ -55,13 +53,33 @@
                 <li>Design</li>
                 <li>Dessin</li>
                 <li>Musique</li>
-                <li>morbide stuff</li>
             </ul>
+        </article>
+
+        <article>
+            <h1>Mes formations</h1>
+            <ul>
+                <li>Dev Web Mobile - Plateforme (en cours)</li>
+                <li>Apple foundation program - Simplon (février 2024)</li>
+                <li>CAP Esthétique - Maestris(2014)</li>
+            </ul>
+
+            <br>
+
+        </article>
+        <h1>Langues</h1>
+        <ul>
+            <li>Anglais - niveau avancé</li>
+            <li>Italien - niveau courant</li>
+        </ul>
+</article>
+
+
         </section>
 
         <section class = "right">
             <article>
-            <h2>Marina Fernandez</h2>
+            <h2 class= "pinyon-script-regular">Marina Fernandez</h2>
             <h3>Etudiante en Dev Web Mobile</h3>
             </article>
         <fieldset>
@@ -134,8 +152,6 @@ Vendeuse en boulangerie – PAUL Airbus</p>
 </section>
 
     </main>
-    <footer>
-    </footer>
 
     <script>
         function fillProgressBar(skillId, percentage, skill) {
