@@ -104,3 +104,28 @@ a {
     line-height: 30px;
     width: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100vw;
+        padding: 2vw;
+    }
+
+    .right {
+        width: 100vw;
+        padding: 2vw;
+    }
+
+    .skill-container {
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: vw;
+    }
+}
+
