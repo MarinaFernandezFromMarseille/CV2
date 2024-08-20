@@ -1,6 +1,73 @@
 img {
     width: 20vw;
-    border-radius: 10vw;
+    border-radius: 50vw;
+}
+
+h2 {
+    color: #180214;
+    font-size: 4vw;
+}
+
+h3 {
+    color: #180214cb;
+    font-size: 2vw;
+}
+
+fieldset {
+    color: #180214;
+    border-color: white;
+    font-size: 1.5vw;
+}
+
+legend {
+    font-size: 2vw;
+}
+
+.icon {
+    width: 2vw;
+}
+
+.icon:hover {
+    width: 3vw;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #240d1e;
+    color: white;
+    width: 25vw;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color: rgb(54, 0, 38);
+    background-color: #ff98ecab;
+    width: 70vw;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+h1 {
+    color: #a50688;
+    font-size: 1.5vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .skill-container {
@@ -16,6 +83,5 @@ img {
     background-color: #a50382;
     text-align: center;
     line-height: 30px;
-    color: white;
     width: 0;
 }
