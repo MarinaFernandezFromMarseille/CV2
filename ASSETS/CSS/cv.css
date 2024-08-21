@@ -25,6 +25,10 @@ fieldset {
     background-color: rgba(255, 255, 255, 0.192);
 }
 
+fieldset:hover {
+    scale(1.1);
+}
+
 legend {
     font-size: 2vw;
     text-decoration: underline;
@@ -101,6 +105,11 @@ a {
     margin: 0.5vw;
     width: 10vw;
     text-align: center;
+}
+
+.lien:hover {
+    background-color: #f3f3f3;
+    color: #fa83e0;
 }
 
 .skill-container {
