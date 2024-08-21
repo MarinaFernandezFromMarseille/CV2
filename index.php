@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./ASSETS/CSS/bootstrap.css">
     <link rel="stylesheet" href="./ASSETS/CSS/cv.css?v=<?php echo time(); ?>">
+    <link rel ="stylesheet" href="./ASSETS/CSS/print.css?v='<?php echo time(); ?>'">
 </head>
 
 <body>
@@ -18,18 +19,18 @@
                 <article>
                     <h1>Mes infos</h1>
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-iphone14-pro.gif"
-                            alt="smartphone Picture"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07.52.05.65.62</p>
+                            alt="smartphone Picture"> <span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>07.52.05.65.62</p>
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-message.gif" alt="mail Picture">
-                        &nbsp;&nbsp;&nbsp;&nbsp;marinafernandezproc@gmail.com</p>
+                    <span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;</span>marinafernandezproc@gmail.com</p>
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-position.gif" alt="adress Picture">
-                        &nbsp;&nbsp;&nbsp;&nbsp;33 allée Léon Gambetta</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13001
+                    <span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;</span>33 allée Léon Gambetta</p>
+                    <p> <span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>13001
                         Marseille</p>
                 </article>
 
                 <br>
 
-                <article>
+                <article class = "progressbar">
                     <h1>Mes competences</h1>
                     <div class="skill-container">
                         <div class="skill-bar" id="phpSkill">Php</div>
@@ -43,15 +44,29 @@
                     <div class="skill-container">
                         <div class="skill-bar" id="jsSkill">jS</div>
                     </div>
+
+                </article>
+
+                <article class = "skills">
+                    <h1>Mes competences</h1>
+                    <ul>
+                        <li>Php</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>jS</li>
+                        <li>Figma</li>
+                    </ul>
                 </article>
 
                 <br>
 
                 <article>
                     <h1>Mes liens</h1>
-                    <a class="lien" href="https://marina-fernandez.students-laplateforme.io/">Mon Plesk</a>
+                    <a class="lien" href='https://marina-fernandez.students-laplateforme.io/'>Mon Plesk</a>
                     <a class="lien" href="https://github.com/MarinaFernandezFromMarseille">Mon Github</a>
+                
                     <br>
+                </article>
 
                     <article>
                         <h1>Mes hobbies</h1>
@@ -70,6 +85,8 @@
                             <li>Apple foundation program - Simplon (février 2024)</li>
                             <li>CAP Esthétique - Maestris(2014)</li>
                         </ul>
+
+                        </article>
 
                         <br>
 
@@ -91,7 +108,7 @@
                 </article>
                 <fieldset>
                     <legend><img class="icon" src="./ASSETS/Pictures/icons8-point-d'interrogation-24.png"
-                            alt="home Picture">A propos de moi </legend>
+                            alt="home Picture">&nbsp;A propos de moi </legend>
                     <p></p>Ayant eu des expériences dans la restauration et la vente auparavant, je suis actuellement en
                     reconversion étudiante chez la Plateforme, en Dev Web Mobile. J'ai pour projet de continuer mon
                     cursus afin d'acquérir le plus de compétences possibles
@@ -103,7 +120,7 @@
                 <br>
 
                 <fieldset>
-                    <legend><img class="icon" src="./ASSETS/Pictures/icons8-valise-24.png" alt="valise Picture">Mon
+                    <legend><img class="icon" src="./ASSETS/Pictures/icons8-valise-24.png" alt="valise Picture">&nbsp;Mon
                         objectif</legend>
                     <p> Je recherche une alternance pour préparer le titre pro de CDA, pour faire suite à mon parcours
                         dans le dev web mobile. </p>
@@ -112,7 +129,7 @@
                 <br>
 
                 <fieldset>
-                    <legend><img class="icon" src="./ASSETS/Pictures/icons8-liste-24.png" alt="list Picture">Mon
+                    <legend><img class="icon" src="./ASSETS/Pictures/icons8-liste-24.png" alt="list Picture">&nbsp;Mon
                         parcours professionnel</legend>
                     <fieldset class="job">
                         <p>Octobre 2022 – Marseille – Manpower interim -
@@ -199,10 +216,10 @@
         }
 
         // Example usage: Fill the PHP skill bar to 50%
-        fillProgressBar('phpSkill', 50, 'PHP:');
-        fillProgressBar('htmlSkill', 80, 'HTML:');
-        fillProgressBar('cssSkill', 50, 'CSS:');
-        fillProgressBar('jsSkill', 10, 'JS:');
+        fillProgressBar('phpSkill', 50, 'html&nbsp;');
+        fillProgressBar('htmlSkill', 80, 'css&nbsp;');
+        fillProgressBar('cssSkill', 50, 'php&nbsp;');
+        fillProgressBar('jsSkill', 10, 'js&nbsp;');
     </script>
 </body>
 

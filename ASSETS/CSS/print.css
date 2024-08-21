@@ -1,11 +1,43 @@
 @media print {
     * {
         background: none !important;
-        color: #000 !important;
+        color: #000000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
         font-family: sans-serif;
+        font-size: medium;
+    }
+
+    .icon, .icon2, .progressbar {
+        display: none;
+    }
+
+    .nbsp {
+        display: none;
+    }
+
+    .left {
+        width: 30vw;
+        height: 140vw;
+    }
+    
+
+    .right {
+        width: 65vw;
+        height: 120vw;
+    }
+
+    
+
+    .skills {
+        display: block
     }
 
 }
+
+
+
+ 
+
+
 
