@@ -1,6 +1,4 @@
-main {
-    cursor:url('./ASSETS/Pictures/icons8-arc-de-cupidon.gif'), auto;
-}
+
 
 img {
     width: 20vw;
@@ -89,11 +87,13 @@ legend {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #240d1e;
+    font-size: 1.2vw;
     color: white;
     width: 25vw;
     padding: 2vw;
     border-radius: 1vw;
     animation: left-fade-in 1s forwards ease-in;
+   
 }
 
 a {
@@ -167,11 +167,12 @@ li:hover {
     background-color: #f3f3f3;
     border-radius: 1vw;
     margin: 1vw 0;
+    height: 75spx;
     overflow: hidden;
 }
 
 .skill-bar {
-    height: 30px;
+    height: 75px;
     background-color: #a50382;
     text-align: center;
     line-height: 30px;
