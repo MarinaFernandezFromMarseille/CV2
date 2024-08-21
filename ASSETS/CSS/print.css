@@ -25,12 +25,25 @@
     .right {
         width: 65vw;
         height: 120vw;
+        margin: 5vw;
     }
 
     
 
     .skills {
         display: block
+    }
+
+    .fieldset {
+        margin-top: 10vw;
+    }
+
+    .job {
+        margin-top: 2vw;
+    }
+
+    br {
+        display: none;
     }
 
 }
