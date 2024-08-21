@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./ASSETS/CSS/cv.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./ASSETS/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./ASSETS/CSS/cv.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-message.gif" alt="mail Picture">
                         &nbsp;&nbsp;&nbsp;&nbsp;marinafernandezproc@gmail.com</p>
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-position.gif" alt="adress Picture">
-                        &nbsp;&nbsp;&nbsp;&nbsp;v33 allée Léon Gambetta</p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;33 allée Léon Gambetta</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13001
                         Marseille</p>
                 </article>
@@ -167,8 +167,8 @@
                 <script>
                     function handlePrint() {
                         window.print();
-                        var button = document.getElementById("myButton");
-                        button.classList.toggle("clicked");
+                        var p = document.getElementById("myButton");
+                        p.classList.toggle("clicked");
                     }
                 </script>
             </section>
