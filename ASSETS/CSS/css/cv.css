@@ -1,0 +1,238 @@
+main {
+    cursor:url('./ASSETS/Pictures/icons8-arc-de-cupidon.gif')16 16, auto;
+}
+
+img {
+    width: 20vw;
+    border-radius: 50vw;
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+
+
+h2 {
+    color: #180214;
+    font-size: 4vw;
+}
+
+h3 {
+    color: #180214cb;
+    font-size: 2vw;
+}
+
+fieldset {
+    color: #180214;
+    border-color: white;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+fieldset:hover {
+    transform: scale(1.1);
+}
+
+legend {
+    font-size: 2vw;
+    text-decoration: underline;
+}
+
+.myButton {
+    background-color: #a50382;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-bottom: 0.5vw;
+    width: 10vw;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#myButton.clicked {
+    background-color: #ff77e6;
+    color: #a50382;
+}
+
+.job {
+    background-color:white;
+}
+
+.icon {
+    width: 3vw;
+}
+
+.icon2 {
+    width: 3.2vw;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #240d1e;
+    color: white;
+    width: 25vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    animation: left-fade-in 1s forwards ease-in;
+}
+
+a {
+    text-decoration: underline;
+}
+
+@keyframes left-fade-in {
+    from {
+        opacity: 0;
+        transform:translateX(-500px);
+    }
+
+    to {
+        opacity: 1;
+        transform:translateX(0px);
+    }
+}
+
+    a:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr:after {
+        content: " (" attr(title) ")";
+    }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color: rgb(54, 0, 38);
+    background-color: #ff98ecab;
+    width: 70vw;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+h1 {
+    color: #a50688;
+    font-size: 1.5vw;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    background-color: #a50382;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+li:hover {
+    font-size: 1.5vw;
+}
+
+.lien {
+    background-color: #a50382;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    width: 10vw;
+    text-align: center;
+}
+
+.lien:hover {
+    background-color: #f3f3f3;
+    color: #ff3ac4;
+}
+
+.skill-container {
+    width: 20vw;
+    background-color: #f3f3f3;
+    border-radius: 1vw;
+    margin: 1vw 0;
+    overflow: hidden;
+}
+
+.skill-bar {
+    height: 30px;
+    background-color: #a50382;
+    text-align: center;
+    line-height: 30px;
+    width: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        padding: 0;
+        width: 100vw;
+        padding: 2vw;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0;
+        width: 100vw;
+        padding: 2vw;
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+    
+    .skill-container {
+        width: 90vw;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    h1 {
+        font-size: 5vw;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    h2 {
+        font-size: 7vw;
+    }
+
+    h3 {
+        font-size: 5vw;
+    }
+
+    fieldset {
+        font-size: 3vw;
+    }
+
+    legend {
+        font-size: 4vw;
+    }
+
+    .profilepic {
+        width: 50vw;
+        margin-left: 20vw;
+    }
+}
+}
+

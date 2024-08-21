@@ -19,11 +19,12 @@
                     <h1>Mes infos</h1>
                     <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-iphone14-pro.gif"
                             alt="smartphone Picture"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07.52.05.65.62</p>
-                    <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-message.gif"
-                            alt="mail Picture"> &nbsp;&nbsp;&nbsp;&nbsp;marinafernandezproc@gmail.com</p>
-                    <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-position.gif"
-                            alt="adress Picture"> &nbsp;&nbsp;&nbsp;&nbsp;v33 allée Léon Gambetta</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13001 Marseille</p>
+                    <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-message.gif" alt="mail Picture">
+                        &nbsp;&nbsp;&nbsp;&nbsp;marinafernandezproc@gmail.com</p>
+                    <p class="phone"><img class="icon" src="./ASSETS/Pictures/icons8-position.gif" alt="adress Picture">
+                        &nbsp;&nbsp;&nbsp;&nbsp;v33 allée Léon Gambetta</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13001
+                        Marseille</p>
                 </article>
 
                 <br>
@@ -54,9 +55,12 @@
 
                     <article>
                         <h1>Mes hobbies</h1>
-                            <p><img class ="icon2" src="./ASSETS/Pictures/icons8-balance-3d.gif" alt="design Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design</p>
-                            <p>&nbsp;<img class = "icon" src="./ASSETS/Pictures/icons8-illustrateur.gif" alt="dessin Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dessin</p>
-                            <p><img class = "icon" src= "./ASSETS/Pictures/icons8-coeur-de-musique.gif" alt="musique Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musique</p>
+                        <p><img class="icon2" src="./ASSETS/Pictures/icons8-balance-3d.gif"
+                                alt="design Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design</p>
+                        <p>&nbsp;<img class="icon" src="./ASSETS/Pictures/icons8-illustrateur.gif"
+                                alt="dessin Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dessin</p>
+                        <p><img class="icon" src="./ASSETS/Pictures/icons8-coeur-de-musique.gif"
+                                alt="musique Picture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musique</p>
                     </article>
 
                     <article>
@@ -158,9 +162,22 @@
 
                 </fieldset>
 
+                <p class="myButton" id="myButton" onclick="handlePrint()">Imprimer</p>
+
+                <script>
+                    function handlePrint() {
+                        window.print();
+                        var button = document.getElementById("myButton");
+                        button.classList.toggle("clicked");
+                    }
+                </script>
             </section>
 
+
+
         </section>
+
+
 
     </main>
 
